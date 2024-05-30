@@ -42,19 +42,29 @@ If all done right you should see the migrations after ` tutor local quickstart `
 
 ### Debug and development:
 
-`tutor local run lms bash `
+```
+tutor local run lms bash
+```
 
-`./manage.py lms makemigrations custom_reg_form`
-
-`./manage.py lms migrate `
+```
+./manage.py lms makemigrations custom_reg_form
+```
+```
+./manage.py lms migrate
+```
 
 To delete and recreate migrations:
 
 
-`./manage.py lms migrate custom_reg_form zero `
+```
+./manage.py lms migrate custom_reg_form zero
+```
 
 Than
 
-`./manage.py lms makemigrations custom_reg_form `
-
-`./manage.py lms migrate`
+```
+./manage.py lms makemigrations custom_reg_form
+```
+```
+./manage.py lms migrate
+```
