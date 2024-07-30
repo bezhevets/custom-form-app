@@ -68,3 +68,4 @@ Than
 ```
 ./manage.py lms migrate
 ```
+!
